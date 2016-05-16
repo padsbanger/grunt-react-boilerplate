@@ -55,10 +55,8 @@
     "dependencies": {
         "react-addons-test-utils": "^15.0.1",
         "react": "^15.0.1",
-        "express": "^4.13.4",
         "jquery": "^2.2.3",
         "less": "^2.6.1",
-        "normalize.css": "^4.1.1",
         "react-dom": "^15.0.1",
         "xml2js": "^0.4.16"
     }
