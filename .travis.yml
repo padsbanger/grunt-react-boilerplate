@@ -3,6 +3,7 @@ node_js:
   - "4.4"
 before_install:
   - npm install -g grunt-cli
-  - npm install mocha
-  - npm test
+  - npm install -g mocha
 install: npm install
+after_success:
+  - npm test
