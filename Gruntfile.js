@@ -10,7 +10,8 @@ module.exports = function(grunt) {
             ['babelify', {
               presets: ['es2015', 'react']
             }]
-          ]
+          ],
+          watch: true
         },
         files: {
           './dist/app.js': ['./src/js/app.js']
@@ -71,7 +72,6 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['./src/js/**/*.js'],
-        tasks: ['browserify'],
         options: {
           livereload: {
             port: 9000
