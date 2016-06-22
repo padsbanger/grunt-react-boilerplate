@@ -7,6 +7,8 @@ It uses Babel & Browserify to handle modules and compile them into plain clean J
 ## Installing
 ```js
 npm install -g grunt-cli
+
+npm install
 ```
 
 ## Running
